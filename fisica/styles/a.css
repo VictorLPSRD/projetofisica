@@ -1,0 +1,38 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 140%;
+}
+
+body {
+    text-align: center;
+    background: #E3DFD2;
+    box-shadow: inset 0 0 20vmin 0 #585247;
+
+}
+
+#imagem {
+    background-image: url('https://1.bp.blogspot.com/-Q-h3ET01sa8/XnDf-jTiC1I/AAAAAAAAAcs/tDll0bcbdZ4H1ihfKMX5hxUf2rnq-BqzwCEwYBhgL/s1600/Isaac%2BNewton.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 768px) {
+
+    /* Estilos para telas com largura máxima de 768px (como celulares) */
+    #imagem {
+        height: 100px;
+        width: 100px;
+        top: 10px;
+        right: 10px;
+    }
+}
